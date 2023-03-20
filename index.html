@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="/css/reset.css">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+    <div class="card">
+      <div class="card__results grid-flow" data-spacing=large>
+        <h1 class="card__section-title">Your Result</h1>
+        <p class="card__results_result-score">
+          <span>76</span> of 100
+        </p>
+        <div class="grid-flow">
+          <p class="card__results_result-rank">Great</p>
+          <p>You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+      </div>
+      <div class="card__summary grid-flow" data-spacing="large">
+        <h2 class="card__section-title">Summary</h2>
+        <div class="grid-flow">
+          <div class="summary-item" data-item-type="accent-1">
+            <div class="flex-group">
+              <img src="assets/images/icon-reaction.svg" alt="reaction">
+              <h3 class="summary-item__title">Reaction</h3>
+            </div>
+            <p class="summary-item__score">
+              <span>80</span> / 100
+            </p>
+          </div>
+          <div class="summary-item" data-item-type="accent-2">
+            <div class="flex-group">
+              <img src="assets/images/icon-memory.svg" alt="memory">
+              <h3 class="summary-item__title">Memory</h3>
+            </div>
+            <p class="summary-item__score">
+              <span>92</span> / 100
+            </p>
+          </div>
+          <div class="summary-item" data-item-type="accent-3">
+            <div class="flex-group">
+              <img src="assets/images/icon-verbal.svg" alt="verbal">
+              <h3 class="summary-item__title">Verbal</h3>
+            </div>
+            <p class="summary-item__score">
+              <span>61</span> / 100
+            </p>
+          </div>
+          <div class="summary-item" data-item-type="accent-4">
+            <div class="flex-group">
+              <img src="assets/images/icon-visual.svg" alt="visual">
+              <h3 class="summary-item__title">Visual</h3>
+            </div>
+            <p class="summary-item__score">
+              <span>72</span> / 100
+            </p>
+          </div>
+        </div>
+        <a href="#" class="card__summary_button">Continue</a>
+      </div>
+    </div>
+  </main>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Danila</a>.
+  </footer>
+</body>
+
+</html>
